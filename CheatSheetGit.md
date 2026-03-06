@@ -1,8 +1,8 @@
-**Resumen simple**
+# **Resumen simple**
 
-**commit:**
+## **commit:**
 *Guarda cambios	En tu PC*
-**push:**
+## **push:**
 *Sube cambios	A GitHub*
-**pull:** 
+## **pull:** 
 *Descarga cambios	Desde GitHub*
