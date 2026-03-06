@@ -1,4 +1,4 @@
-# **Resumen simple**
+# **Resumen simple:**
 
 ## **commit:**
 *Guarda cambios	En tu PC*
