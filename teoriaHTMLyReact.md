@@ -1,15 +1,66 @@
-HTML Etiquetas de estructura
+1.HTML
+Etiquetas de estructura
 < html >: documento HTML. < head >: configuración y metadatos. < title >: título de la pestaña. < body >: contenido visible. < header >: encabezado. < nav >: navegación. < main >: contenido principal. < section >: sección. < footer >: pie de página.
 
 PARA AGREGAR CODIGO < link rel="stylesheet" href="style.css"> < script src="script.js"></script>
 
 etiquetas de texto < h1 >: título principal. < h2 >: subtítulo. < p >: párrafo. < strong >: texto importante/negrita. < em >: énfasis/cursiva.
 
-JavaScript Variables: almacenan información. Tipos: texto, números, booleanos, arrays y objetos. Constantes: valores que no se pueden reasignar. Globales: variables accesibles desde diferentes partes del programa. Flujo: permite tomar decisiones y repetir acciones mediante condiciones y bucles.
+2.JavaScript
+Variables: almacenan información. 
+Tipos: texto, números, booleanos, arrays y objetos.
+Constantes: valores que no se pueden reasignar. 
+Globales: variables accesibles desde diferentes partes del programa.
+Flujo: permite tomar decisiones y repetir acciones mediante condiciones y bucles.
+if / else: Sirve para tomar decisiones.
 
-CSS Selectores: indican qué elementos HTML se quieren modificar. Permiten cambiar características como color, tamaño, posición, fondo y espacio.
+if (edad >= 18) {
+  console.log("Es mayor");
+} else {
+  console.log("Es menor");
+}
 
-React
+switch: Sirve para elegir entre varias opciones.
+
+switch (dia) {
+  case "lunes":
+    console.log("Inicio de semana");
+    break;
+  case "viernes":
+    console.log("Fin de semana");
+    break;
+}
+
+for: Sirve para repetir algo un número determinado de veces.
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+while: Repite algo mientras se cumpla una condición.
+
+while (numero < 5) {
+  numero++;
+}
+
+do...while: Parecido a while, pero se ejecuta al menos una vez.
+
+do {
+  numero++;
+} while (numero < 5);
+
+break: Sirve para detener un ciclo.
+
+break;
+
+continue: Sirve para saltar una repetición y continuar con la siguiente.
+
+continue;
+
+3.CSS
+Selectores: indican qué elementos HTML se quieren modificar. Permiten cambiar características como color, tamaño, posición, fondo y espacio.
+
+4.React
 
 Un componente de React se puede ver como una etiqueta HTML personalizada que nosotros creamos.
 
